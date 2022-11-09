@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(0, 255, 76);
+}
+nav ul li {
+    display: inline-flex;
+    justify-content: space-between, center;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    color: rgb(38, 78, 8);
+    text-align: center;
+    text-decoration: none;
+}
+
+.tree-intro{
+    margin-left: 30%;
+    margin-top: 15px;
+    width: 40%;
+    height: 25%;
+}
+
+.intro-desc {
+    background: rgb(255, 251, 185);
+    margin-top: 25px;
+}
+
+.intro-desc p {
+    padding: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.trees-help-us {
+    margin-left: 32%;
+    height: 35%;
+    width: 35%;
+}
+
+.more-stats {
+    background: rgb(131, 255, 97);
+}
+
+.more-stats p {
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+}
+
+.social-links {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+section a {
+    text-decoration: none;
+}
