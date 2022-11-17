@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(169, 255, 177)
+}
+.social-links {
+    padding: 20px;
+    margin: 10px;
+    top: 300px;
+}
+
+section a {
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-line {
+    display: block;
+}
