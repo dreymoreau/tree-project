@@ -36,18 +36,6 @@ section {
     min-width: 20%;
 }
 
-.card1 {
-    width: 60%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 40px;
-    background: rgb(255, 255, 255);
-    padding: 20px;
-    box-shadow: 0px 0px 10px 2px black;
-}
-
 .card2 {
     width: 60%;
     height: 95%;
