@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-body {
-    background: rgb(99, 255, 21);
+html {
+    font-size: 62.5%;
 }
 
-div {
-    font-size: 22px;
+body {
+    background: rgb(99, 255, 21);
 }
 
 .title {
@@ -20,7 +20,7 @@ div {
 
 h1 {
     text-align: center;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 section {
@@ -33,12 +33,13 @@ section {
 
 .min-width {
     max-width: 95%;
-    min-width: 20%;
+    min-width: 10%;
+    margin-left: 2%;
 }
 
 .card2 {
-    width: 60%;
     height: 95%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
