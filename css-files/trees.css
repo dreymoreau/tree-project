@@ -32,29 +32,23 @@ a {
     font-size: 1.75rem;
 }
 
-section {
-    display: flex;
-}
-
-.half-size {
-    width: 50%;
-}
-
-.container2 {
+section .container2 {
     margin-left: 7%;
     display: flex;
+    justify-content: center;
+    align-items: space-between;
+    width: 33.333%;
     position: relative;
 }
 
 .min-width {
-    width: 60%;
+    max-width: 80%;
     min-width: 30%;
     margin-left: 2%;
 }
 
 .card2 {
     height: 85%;
-    width: 30%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
