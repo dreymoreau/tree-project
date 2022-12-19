@@ -17,12 +17,18 @@ body {
 
 h1 {
     padding: 20px;
+    margin-top: 20px;
     background: linear-gradient(rgb(136, 0, 255),
                 rgb(9, 255, 0), rgb(21, 11, 204));
 }
 
 .img-contain {
     display: flex;    
+    margin-top: 20px;
+}
+
+.lowerIt {
+    display: block;
 }
 
 img {
