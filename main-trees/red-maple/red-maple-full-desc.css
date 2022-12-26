@@ -8,3 +8,21 @@ img {
     width: 30%;
     height: 40%;
 }
+
+body {
+    background: rgb(255, 66, 66);
+}
+
+.container1 {
+    display: flex; 
+    position: relative;
+    justify-content: center;
+    min-width: 20%;
+}
+
+h1 {
+    padding: 20px;
+    margin-top: 20px;
+    background: linear-gradient(rgb(255, 153, 0),
+                rgb(255, 22, 22), rgb(255, 247, 0));
+}

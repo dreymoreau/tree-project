@@ -4,10 +4,10 @@ function openArborvitaePage() {
     location.href=("../main-trees/arborvitae/arborvitae-full-desc.html")
 }
 
-document.querySelector('#buttonTwo').addEventListener('click', openHoneyLocusPage)
+document.querySelector('#buttonTwo').addEventListener('click', openHoneyLocustPage)
 
-function openHoneyLocusPage() {
-    location.href=("../main-trees/honey-locus/honey-locus-full-desc.html")
+function openHoneyLocustPage() {
+    location.href=("../main-trees/honey-locust/honey-locust-full-desc.html")
 }
 
 document.querySelector('#buttonThree').addEventListener('click', openSassafrassPage)

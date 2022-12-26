@@ -8,3 +8,7 @@ img {
     width: 30%;
     height: 40%;
 }
+
+body {
+    background: rgb(255, 90, 120)
+}
