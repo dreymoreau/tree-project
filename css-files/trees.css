@@ -32,14 +32,10 @@ a {
     font-size: 1.75rem;
 }
 
-section .container2 {
-    margin-left: 7%;
+.container2 {
     display: flex;
-    justify-content: center;
-    align-items: space-between;
-    width: 33.333%;
-    position: relative;
 }
+
 
 .min-width {
     max-width: 80%;
