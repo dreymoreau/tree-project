@@ -5,12 +5,12 @@
 }
 
 body {
-    background: rgb(0, 255, 76);
+    background: rgb(48, 218, 99);
 }
 nav ul li {
     display: inline-flex;
     justify-content: space-between, center;
-    padding: 10px;
+    padding: 7px;
     text-decoration: none;
     
 }
@@ -18,10 +18,11 @@ nav ul li {
 li a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 
 h1 {
-    color: rgb(38, 78, 8);
+    color: rgb(0, 0, 0);
     text-align: center;
     text-decoration: none;
 }
@@ -33,9 +34,13 @@ h1 {
     height: 25%;
 }
 
-.intro-desc {
-    background: rgb(255, 251, 185);
-    margin-top: 25px;
+.intro-desc, .more-stats {
+    background: rgb(255, 162, 111);
+    display: flex;
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: 2px solid black;
 }
 
 .intro-desc p {
@@ -48,10 +53,12 @@ h1 {
     margin-left: 32%;
     height: 35%;
     width: 35%;
+    border-radius: 20px;
+    border: 2px solid black;
 }
 
 .more-stats {
-    background: rgb(131, 255, 97);
+    background: rgb(249, 255, 80);
 }
 
 .more-stats p {
