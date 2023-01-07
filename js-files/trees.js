@@ -10,10 +10,10 @@ function openHoneyLocustPage() {
     location.href=("../main-trees/honey-locust/honey-locust-full-desc.html")
 }
 
-document.querySelector('#buttonThree').addEventListener('click', openButternutPage)
+document.querySelector('#buttonThree').addEventListener('click', openBirchPage)
 
-function openButternutPage() {
-    location.href=("../main-trees/butternut/butternut-full-desc.html")
+function openBirchPage() {
+    location.href=("../main-trees/birch/birch-full-desc.html")
 }
 
 document.querySelector('#buttonFour').addEventListener('click', openBlackOakPage)
