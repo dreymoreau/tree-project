@@ -22,7 +22,6 @@ body {
         justify-content: space-around;
         position: relative;
         margin-top: 20px;
-        width: 50%;
 }
 
 h1 {
@@ -32,10 +31,19 @@ h1 {
                 rgb(9, 255, 0), rgb(21, 11, 204));
 }
 
-/* .img-contain {
-    display: flex;    
+span {
+    font-weight: bold;
+}
+
+.centerIt {
+    text-align: center;
+    padding: 20px;
     margin-top: 20px;
-} */
+    margin-left: 25%;
+    background: rgb(255, 209, 152);
+    border: 2px solid black;
+    width: 50%;
+}
 
 img {
     width: 40%;
