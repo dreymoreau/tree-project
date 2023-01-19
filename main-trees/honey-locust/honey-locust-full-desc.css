@@ -10,7 +10,8 @@ body {
 
 img {
     width: 30%;
-    height: 40%;
+    height: 30%;
+    border-radius: 20px;
 }
 
 .container1 {
@@ -40,8 +41,18 @@ h1 {
 .centerIt {
     text-align: center;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 115px;
     background: rgb(150, 59, 254);
     border: 2px solid black;
-    width: 50%;
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+}
+
+ul {
+    list-style-type: none;
+} 
+
+span {
+    font-weight: bold;
 }
