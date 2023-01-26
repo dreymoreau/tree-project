@@ -21,3 +21,11 @@ img{
     width: 30%;
     height: 30%;
 }
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
