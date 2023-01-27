@@ -71,3 +71,7 @@ a {
 button {
     min-width: 5%;
 }
+
+#buttonOne, #buttonTwo, #buttonThree, #buttonFour, #buttonFive {
+    margin-left: 30%;
+}
