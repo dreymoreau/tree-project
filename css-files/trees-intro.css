@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: rgb(99, 255, 21);
+    background: linear-gradient(rgb(0, 97, 19), rgb(33, 169, 33),  rgb(99, 255, 21));
 }
 
 .title {

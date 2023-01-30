@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: rgb(48, 218, 99);
+    background: linear-gradient(rgb(116, 255, 46), rgb(0, 202, 24), rgb(20, 74, 0))
 }
 
 nav {
