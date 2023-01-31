@@ -5,7 +5,8 @@
 }
 
 body {
-    background: rgb(0, 255, 68);
+    background: linear-gradient(90deg, rgb(136, 0, 255),
+    rgb(9, 255, 0), rgb(21, 11, 204));
 }
 
 .container1 {
@@ -27,8 +28,9 @@ body {
 h1 {
     padding: 20px;
     margin-top: 20px;
-    background: linear-gradient(rgb(136, 0, 255),
-                rgb(9, 255, 0), rgb(21, 11, 204));
+    border: 2px solid black;
+    background:rgb(88, 80, 255);
+    border-radius: 20px;
 }
 
 span {
@@ -56,4 +58,13 @@ img {
 
 ul{
     list-style-type: none;
+}
+
+.miniContainer {
+    display: flex;
+}
+section a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 auto;
 }
