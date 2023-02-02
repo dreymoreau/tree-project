@@ -5,7 +5,8 @@
 }
 
 body {
-    background: rgb(242, 255, 0);
+    background: linear-gradient(90deg,rgb(133, 68, 255),
+    rgb(255, 145, 0), rgb(204, 11, 11));
 }
 
 img {
@@ -23,9 +24,17 @@ img {
 
 h1 {
     padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
     margin-top: 20px;
-    background: linear-gradient(rgb(242, 255, 0),
-                rgb(255, 145, 0), rgb(204, 11, 11));
+    background: rgb(247, 255, 96);
+}
+ 
+/* photo */
+.resizing {
+    height: 400px;
+    width: 27%;
+    border: 2px solid black;
 }
 
 .container2 {
@@ -41,7 +50,7 @@ h1 {
 .centerIt {
     text-align: center;
     padding: 20px;
-    margin-top: 115px;
+    margin-top: 50px;
     background: rgb(150, 59, 254);
     border: 2px solid black;
     width: 30%;
@@ -55,4 +64,15 @@ ul {
 
 span {
     font-weight: bold;
+}
+
+.flexIt {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+section a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
 }

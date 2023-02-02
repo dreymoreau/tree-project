@@ -29,7 +29,7 @@ h1 {
     padding: 20px;
     margin-top: 20px;
     border: 2px solid black;
-    background:rgb(88, 80, 255);
+    background:rgb(127, 121, 250);
     border-radius: 20px;
 }
 
@@ -60,11 +60,13 @@ ul{
     list-style-type: none;
 }
 
-.miniContainer {
+.flexIt {
     display: flex;
+    position: relative;
+    justify-content: center;
 }
 section a {
     color: #000;
     text-decoration: none;
-    margin: 0 auto;
+    padding: 10px;
 }

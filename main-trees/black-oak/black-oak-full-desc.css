@@ -10,7 +10,8 @@ img {
 }
 
 body {
-    background: rgb(185, 255, 46);
+    background: linear-gradient( 90deg,rgb(4, 255, 0),
+    rgb(0, 255, 251), rgb(66, 11, 204));
 }
 
 .container1 {
@@ -32,8 +33,9 @@ body {
 h1 {
     padding: 20px;
     margin-top: 20px;
-    background: linear-gradient(rgb(4, 255, 0),
-                rgb(0, 255, 251), rgb(66, 11, 204));
+    background:  rgb(174, 255, 87);
+    border-radius: 20px;
+    border: 2px solid black;
 }
 
 .centerIt {
@@ -60,4 +62,15 @@ ul{
 
 span {
     font-weight: bold;
+}
+
+.flexIt {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+section a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
 }

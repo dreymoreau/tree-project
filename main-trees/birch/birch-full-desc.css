@@ -12,3 +12,14 @@ img {
 body {
     background: rgb(255, 90, 120)
 }
+
+.flexIt {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+section a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
