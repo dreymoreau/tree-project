@@ -45,7 +45,7 @@ h1 {
 .centerIt {
     text-align: center;
     padding: 30px;
-    margin-top: 45px;
+    margin-top: 85px;
     background: rgb(150, 59, 254);
     border: 3px solid black;
     width: 30%;
@@ -72,4 +72,5 @@ section a {
     text-decoration: none;
     padding: 10px;
     font-weight: bold;
+    margin-top: 82px;
 }

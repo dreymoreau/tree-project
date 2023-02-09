@@ -40,7 +40,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-around;
     position: relative;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .flexIt {
@@ -76,6 +76,7 @@ section a {
     text-decoration: none;
     padding: 10px;
     font-weight: bold;
+    margin-top: 117px;
 }
 
 ul{
