@@ -26,9 +26,9 @@ body {
 }
 
 h1 {
-    padding: 20px;
+    padding: 15px;
     margin-top: 20px;
-    border: 2px solid black;
+    border: 3px solid black;
     background:rgb(127, 121, 250);
     border-radius: 20px;
 }
@@ -42,7 +42,7 @@ span {
     padding: 20px;
     margin-top: 115px;
     background: rgb(255, 209, 152);
-    border: 2px solid black;
+    border: 3px solid black;
     width: 30%;
     height: 30%;
     border-radius: 20px;
@@ -52,7 +52,7 @@ img {
     width: 30%;
     height: 30%;
     border-radius: 20px;
-    border: 2px solid black;
+    border: 3px solid black;
     margin-top: 50px;
 }
 
@@ -65,8 +65,10 @@ ul{
     position: relative;
     justify-content: center;
 }
+
 section a {
     color: #000;
     text-decoration: none;
     padding: 10px;
+    font-weight: bold;
 }

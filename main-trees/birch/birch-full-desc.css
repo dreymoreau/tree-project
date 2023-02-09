@@ -22,15 +22,16 @@ body {
 }
 
 img {
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 20px;
 }
+
 h1 {
-    padding: 15px;
+    padding: 12px;
     margin-top: 20px;
     background:  rgb(255, 130, 153);
     border-radius: 20px;
-    border: 2px solid black;
+    border: 3px solid black;
 }
 
 .container2 {
@@ -59,7 +60,7 @@ section a {
     padding: 20px;
     margin-top: 70px;
     background: #ffec5e;
-    border: 2px solid black;
+    border: 3px solid black;
     width: 30%;
     height: 30%;
     border-radius: 20px;
@@ -74,6 +75,7 @@ section a {
     color: #000;
     text-decoration: none;
     padding: 10px;
+    font-weight: bold;
 }
 
 ul{

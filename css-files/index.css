@@ -9,7 +9,8 @@ html {
 }
 
 body {
-    background: linear-gradient(rgb(116, 255, 46), rgb(0, 202, 24), rgb(20, 74, 0))
+    background: linear-gradient(rgb(116, 255, 46), rgb(0, 202, 24), 
+    rgb(20, 74, 0))
 }
 
 nav {
@@ -69,7 +70,7 @@ p {
 }
 
 .intro-desc p {
-    padding: 20px;
+    padding: 15px;
     margin: 10px;
     font-weight: bold;
 }
@@ -88,7 +89,7 @@ p {
 
 .more-stats p {
     font-weight: bold;
-    padding: 20px;
+    padding: 15px;
     margin: 10px;
 }
 
