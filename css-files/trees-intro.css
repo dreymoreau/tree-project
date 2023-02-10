@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: linear-gradient(rgb(0, 97, 19), rgb(33, 169, 33),  rgb(99, 255, 21));
+    background: linear-gradient(180deg, rgb(0, 97, 19), rgb(33, 169, 33),  rgb(99, 255, 21));
 }
 
 .title {
@@ -72,6 +72,7 @@ a {
 
 .backHome {
     text-align: center;
+    height: 50px;
 }
 
 .backHome a{
@@ -92,4 +93,6 @@ button {
 
 section a {
     color: #000;
+    font-size: 1.5em;
+    margin-top: 50px;
 }

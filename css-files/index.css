@@ -13,14 +13,14 @@ body {
     rgb(20, 74, 0))
 }
 
-nav {
-    height: 30px;
+header nav {
+    height: 35px;
 }
 
 .mainTitle {
     font-weight: bold;
     font-size: 2.2rem;
-    margin-left: 32%;
+    margin-left: 37%;
 }
 
 nav ul li {
@@ -37,19 +37,6 @@ li a {
     font-weight: bold;
 }
 
-h1 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    text-decoration: none;
-}
-
-.tree-intro{
-    margin-left: 30%;
-    margin-top: 15px;
-    width: 40%;
-    height: 25%;
-}
-
 .intro-desc, .more-stats {
     background: rgb(255, 162, 111);
     display: flex;
@@ -63,10 +50,11 @@ p {
     font-size: 1.6rem;
 }
 
-/* clock for page that updates based where the user is using their device */
+/* clock for page that updates based on browser time */
 #curTime{
     border: 2px solid black;
     margin-left: 40%;
+    padding: 8px 10px;
 }
 
 .intro-desc p {
@@ -102,4 +90,5 @@ p {
 section a {
     text-decoration: none;
     padding: 2px;
+    color: #000;
 }
