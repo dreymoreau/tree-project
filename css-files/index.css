@@ -55,6 +55,8 @@ p {
     border: 2px solid black;
     margin-left: 40%;
     padding: 8px 10px;
+    background: rgb(255, 244, 89);
+    border-radius: 15px;
 }
 
 .intro-desc p {
