@@ -94,3 +94,13 @@ section a {
     padding: 2px;
     color: #000;
 }
+
+@media screen and (max-width: 770px){
+   nav li {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:left;
+   }
+}
