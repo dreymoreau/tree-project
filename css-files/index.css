@@ -17,15 +17,9 @@ header nav {
     height: 35px;
 }
 
-.mainTitle {
-    font-weight: bold;
-    font-size: 2.2rem;
-    margin-left: 37%;
-}
-
 nav ul li {
-    display: inline-flex;
-    justify-content: space-between, center;
+    display: flex;
+    justify-content: flex-start;
     padding: 10px;
     text-decoration: none;
     font-size: 1.6rem;
@@ -51,9 +45,13 @@ p {
 }
 
 /* clock for page that updates based on browser time */
+.container {
+    display: flex;
+}
 #curTime{
     border: 2px solid black;
-    margin-left: 40%;
+    display: flex;
+    justify-content: flex-end;
     padding: 8px 10px;
     background: rgb(255, 244, 89);
     border-radius: 15px;
@@ -95,12 +93,20 @@ section a {
     color: #000;
 }
 
-@media screen and (max-width: 770px){
-   nav li {
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    display:inline-block;
-    vertical-align:left;
-   }
+@media screen and (max-width: 767px) {
+  nav a{
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        font-size: 2em;
+        font-weight: 900;
+    }
+
+    nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: 900;
+}
 }
