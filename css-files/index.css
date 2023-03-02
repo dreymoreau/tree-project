@@ -18,7 +18,7 @@ header nav {
 }
 
 nav ul li {
-    display: flex;
+    display: inline-flex;
     justify-content: flex-start;
     padding: 10px;
     text-decoration: none;
@@ -94,19 +94,5 @@ section a {
 }
 
 @media screen and (max-width: 767px) {
-  nav a{
-        display: flex;
-        justify-content: left;
-        align-items: flex-start;
-        font-size: 2em;
-        font-weight: 900;
-    }
-
-    nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-    font-weight: 900;
-}
+ 
 }
