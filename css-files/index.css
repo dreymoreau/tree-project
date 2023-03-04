@@ -31,9 +31,18 @@ li a {
     font-weight: bold;
 }
 
-.intro-desc, .more-stats {
+.intro-desc{
     background: rgb(255, 162, 111);
-    display: flex;
+    display: block;
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.more-stats {
+    background: rgb(249, 255, 80);
+    display: block;
     width: 50%;
     margin: 50px auto;
     border-radius: 20px;
@@ -69,10 +78,6 @@ p {
     width: 35%;
     border-radius: 20px;
     border: 2px solid black;
-}
-
-.more-stats {
-    background: rgb(249, 255, 80);
 }
 
 .more-stats p {
