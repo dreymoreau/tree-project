@@ -14,15 +14,18 @@ body {
 }
 
 header nav {
-    height: 35px;
+    height: 57.6px;
 }
 
 nav ul li {
-    display: inline-flex;
-    justify-content: flex-start;
+    display: inline-block;
     padding: 10px;
     text-decoration: none;
     font-size: 1.6rem;
+}
+
+nav ul li.center {
+    margin-left: 20%;
 }
 
 li a {
