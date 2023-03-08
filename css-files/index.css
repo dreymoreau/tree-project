@@ -20,7 +20,6 @@ header nav {
 nav ul li {
     display: inline-block;
     padding: 10px;
-    margin-left: .5%;
     text-decoration: none;
     font-size: 1.6rem;
 }
@@ -33,7 +32,7 @@ li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    margin-left: 5%;
+    margin-left: 37%;
 }
 
 .intro-desc{
@@ -61,12 +60,11 @@ p {
 /* clock for page that updates based on browser time */
 #curTime{
     border: 2px solid black;
-    display: flex;
-    justify-content: flex-end;
     padding: 8px 10px;
     background: rgb(255, 244, 89);
     border-radius: 15px;
 }
+
 
 .intro-desc p {
     padding: 15px;
