@@ -77,3 +77,12 @@ section a {
     font-weight: bold;
     margin-top: 112px;
 }
+
+@media screen and (max-width:820px) {
+    section.item {
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        width: 180px;
+    }
+}
