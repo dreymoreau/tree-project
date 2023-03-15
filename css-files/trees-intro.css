@@ -18,21 +18,6 @@ body {
     margin-top: 15px;
 }
 
-/* clock for page that updates based on browser time */
-#curTime{
-    border: 2px solid black;
-    padding: 8px 10px;
-    background: rgb(255, 244, 89);
-    border-radius: 15px;
-}
-
-li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    margin-left: 37%;
-}
-
 h1 {
     text-align: center;
     font-size: 3rem;

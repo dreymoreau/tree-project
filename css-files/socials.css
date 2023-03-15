@@ -8,21 +8,6 @@ body {
     background: linear-gradient(90deg, rgb(0, 255, 106), rgb(0, 255, 21), rgb(0, 121, 10));
 }
 
-/* clock for page that updates based on browser time */
-#curTime{
-    border: 2px solid black;
-    padding: 8px 10px;
-    background: rgb(255, 244, 89);
-    border-radius: 15px;
-}
-
-li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    margin-left: 37%;
-}
-
 .social-links {
     padding: 20px;
     margin: 10px;
