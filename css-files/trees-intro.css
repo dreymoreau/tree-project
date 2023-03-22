@@ -74,7 +74,7 @@ button {
 }
 
 #buttonOne, #buttonTwo, #buttonThree, #buttonFour, #buttonFive {
-    margin-left: 29%;
+    margin: 0 0 0 29%;
     border-radius: 10px;
     border: 2px solid black;
     padding: 5px;
