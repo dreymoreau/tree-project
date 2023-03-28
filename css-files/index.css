@@ -17,6 +17,10 @@ header nav {
     height: 57.6px;
 }
 
+nav {
+    position: relative;
+}
+
 nav ul li {
     display: inline-block;
     padding: 10px;
@@ -24,8 +28,8 @@ nav ul li {
     font-size: 1.6rem;
 }
 
-nav ul li.center {
-    margin-left: 36%;
+nav ul li.centerH1{
+   margin-left: 36%;
 }
 
 li a {
@@ -63,6 +67,8 @@ p {
     padding: 8px 10px;
     background: rgb(255, 244, 89);
     border-radius: 15px;
+    position: absolute;
+    bottom: 10px;
 }
 
 .intro-desc p {
@@ -98,5 +104,6 @@ section a {
 }
 
 @media screen and (max-width: 767px) {
+
  
 }
