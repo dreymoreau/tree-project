@@ -74,12 +74,24 @@ button {
 }
 
 #buttonOne, #buttonTwo, #buttonThree, #buttonFour, #buttonFive {
-    margin: 0 0 0 29%;
+    margin-left: 23%;
     border-radius: 10px;
     border: 2px solid black;
     padding: 5px;
     margin-top: 20px;
     background: rgb(30, 204, 41);
+}
+
+#buttonOne, #buttonFour {
+    margin-left: 25%;
+}
+
+#buttonThree {
+    margin-left: 28%;
+}
+
+#buttonFive{
+    margin-left: 24%;
 }
  
 #buttonOne:hover, #buttonTwo:hover, #buttonThree:hover, #buttonFour:hover, 
