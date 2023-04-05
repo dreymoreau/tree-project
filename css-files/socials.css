@@ -6,12 +6,13 @@
 
 body {
     background: linear-gradient(90deg, rgb(0, 255, 106), rgb(0, 255, 21), rgb(0, 121, 10));
+    height: 100%;
 }
 
 .social-links {
     padding: 20px;
     margin: 10px;
-    top: 300px;
+    top: 200px;
 }
 
 section a {
@@ -27,6 +28,6 @@ section {
     align-items: center;
 }
 
-.next-line {
-    display: block;
+.moveDown{
+    margin-top: 175px;
 }
