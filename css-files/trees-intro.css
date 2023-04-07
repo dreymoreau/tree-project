@@ -82,21 +82,41 @@ button {
     background: rgb(30, 204, 41);
 }
 
-#buttonOne, #buttonFour {
+#buttonOne {
+    margin-left: 28%;
+}
+
+#buttonTwo {
     margin-left: 25%;
 }
 
 #buttonThree {
-    margin-left: 28%;
+    margin-left: 31%;
 }
 
-#buttonFive{
-    margin-left: 24%;
+#buttonFour, #buttonFive {
+    margin-left: 28%;
 }
  
 #buttonOne:hover, #buttonTwo:hover, #buttonThree:hover, #buttonFour:hover, 
 #buttonFive:hover {
     background: rgb(113, 255, 122);
+}
+
+.miniChange {
+    margin-left: 37%;
+}
+.miniChange2 {
+    margin-left: 33%;
+}
+.miniChange3{
+    margin-left: 40%;
+}
+.miniChange4{
+    margin-left: 38%;
+}
+.miniChange5{
+    margin-left: 36%;
 }
 
 section a {
