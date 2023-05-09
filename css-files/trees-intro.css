@@ -133,3 +133,10 @@ section a {
     text-decoration: none;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 420px) {
+    h2{
+        margin-right: 20%;
+        font-size: 16px;
+    }
+}
