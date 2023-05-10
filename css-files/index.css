@@ -103,7 +103,18 @@ section a {
     color: #000;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 415px) {
+    li a{
+        font-size: 13px;
+        margin-left: -1px;
+    }
+    
+    h1{
+        margin-left: -127px;
+        font-size: 25px;
+    }
 
- 
+    #curTime {
+        margin-left: 30px;
+    }
 }
