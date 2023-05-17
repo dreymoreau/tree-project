@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-    margin-left: 33%;
+    margin: 0 auto;
     font-size: 2.5rem; 
 }
 
@@ -103,20 +103,8 @@ button {
     background: rgb(113, 255, 122);
 }
 
-.miniChange {
-    margin-left: 37%;
-}
-.miniChange2 {
-    margin-left: 33%;
-}
-.miniChange3{
-    margin-left: 40%;
-}
-.miniChange4{
-    margin-left: 38%;
-}
-.miniChange5{
-    margin-left: 36%;
+.miniChange, .miniChange2, .miniChange3, .miniChange4, .miniChange5 {
+    text-align: center;
 }
 
 section a {
@@ -135,8 +123,88 @@ section a {
 }
 
 @media screen and (max-width: 420px) {
-    h2{
-        margin-right: 20%;
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card2 {
+        width: 80%;
+    }
+
+    #buttonOne{
+        margin-left: 5px;
+    }
+   #buttonTwo,  #buttonThree,  #buttonFour,  #buttonFive {
+        margin-left: 10px;
+    } 
+
+
+    /* .miniChange, .miniChange2 {
+        margin-left: 10px;
         font-size: 16px;
+    }
+
+    .miniChange3, .miniChange4,  .miniChange5{
+        margin-left: 15px;
+        font-size: 16px;
+    } */
+
+}
+
+
+@media (min-width: 421px) and (max-width: 799px) {
+    .miniChange ,.miniChange2 {
+        font-size: 18px;
+    }
+
+    
+    .miniChange3{
+        font-size: 18px;
+    }
+
+    .miniChange4,  .miniChange5 {
+        font-size: 18px;
+    }
+
+    #buttonOne, #buttonTwo,  #buttonThree,  #buttonFour,  #buttonFive {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1207px) {
+    .miniChange ,.miniChange2 {
+        margin-left: 80px;
+        font-size: 18px;
+    }
+
+    
+    .miniChange3{
+        margin-left: 100px;
+        font-size: 18px;
+    }
+
+    .miniChange4,  .miniChange5 {
+        margin-left: 90px;
+        font-size: 18px;
+    }
+
+    #buttonOne {
+        margin-left: 70px;
+        max-width: 50%;
+    }
+    
+    #buttonTwo{
+        margin-left: 20px;
+    }
+
+    #buttonThree {
+        margin-left: 53px;
+    }
+
+    #buttonFour,  #buttonFive  {
+        margin-left: 40px;
     }
 }
