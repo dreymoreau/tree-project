@@ -89,4 +89,12 @@ section a {
     .centerIt {
         margin-top: 50px;
     }
+
+    h3 {
+        padding-bottom: 7px;
+    }
+
+    p {
+        padding: 10px;
+    }
 }
