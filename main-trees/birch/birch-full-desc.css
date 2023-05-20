@@ -106,3 +106,15 @@ ul{
         padding: 8px;
     }
 }
+
+
+@media screen and (max-width:425px) {
+    h3{
+        font-size: 80%;
+        margin-left: -6px;
+    }
+
+    ul, li {
+        font-size: 80%;
+    }
+}
