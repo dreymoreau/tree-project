@@ -134,24 +134,21 @@ section a {
         width: 80%;
     }
 
-    #buttonOne{
-        margin-left: 5px;
+    .miniChange, .miniChange2, .miniChange3, .miniChange4, .miniChange5 {
+        font-size: 18px;
     }
-   #buttonTwo,  #buttonThree,  #buttonFour,  #buttonFive {
-        margin-left: 10px;
+
+   #buttonOne, #buttonTwo,  #buttonThree,  #buttonFour,  #buttonFive {
+        margin-left: 5px;
     } 
 
-
-    /* .miniChange, .miniChange2 {
-        margin-left: 10px;
-        font-size: 16px;
+    #buttonOne {
+        width: 87%;
     }
 
-    .miniChange3, .miniChange4,  .miniChange5{
-        margin-left: 15px;
-        font-size: 16px;
-    } */
-
+    .backHome {
+        margin-top: 20px;
+    }
 }
 
 
