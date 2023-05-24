@@ -49,13 +49,14 @@ a {
 .min-width {
     max-width: 70%;
     min-width: 40%;
-    margin-left: 15%;
+    margin-top: 20px;
 }
 
 .card2 {
     height: 95%;
     max-width: 30%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 40px;
@@ -64,24 +65,18 @@ a {
     box-shadow: 0px 0px 10px 2px black;
 }
 
-/* honey-locust image */
-.resizing {
-    margin-top: 20px;
-}
-
 button {
     min-width: 5%;
 }
 
 #buttonOne, #buttonTwo, #buttonThree, #buttonFour, #buttonFive {
-    margin-left: 23%;
     border-radius: 10px;
     border: 2px solid black;
     padding: 5px;
     margin-top: 20px;
     background: rgb(30, 204, 41);
 }
-
+/* 
 #buttonOne {
     margin-left: 28%;
 }
@@ -96,7 +91,7 @@ button {
 
 #buttonFour, #buttonFive {
     margin-left: 28%;
-}
+} */
  
 #buttonOne:hover, #buttonTwo:hover, #buttonThree:hover, #buttonFour:hover, 
 #buttonFive:hover {
@@ -137,10 +132,10 @@ section a {
     .miniChange, .miniChange2, .miniChange3, .miniChange4, .miniChange5 {
         font-size: 18px;
     }
-
+/* 
    #buttonOne, #buttonTwo,  #buttonThree,  #buttonFour,  #buttonFive {
         margin-left: 5px;
-    } 
+    }  */
 
     #buttonOne {
         width: 87%;
@@ -166,42 +161,18 @@ section a {
         font-size: 18px;
     }
 
-    #buttonOne, #buttonTwo,  #buttonThree,  #buttonFour,  #buttonFive {
+    /* #buttonOne, #buttonTwo,  #buttonThree,  #buttonFour,  #buttonFive {
         margin-left: 10px;
-    }
+    } */
 }
 
 @media (min-width: 800px) and (max-width: 1207px) {
-    .miniChange ,.miniChange2 {
-        margin-left: 80px;
-        font-size: 18px;
-    }
-
-    
-    .miniChange3{
-        margin-left: 100px;
-        font-size: 18px;
-    }
-
-    .miniChange4,  .miniChange5 {
-        margin-left: 90px;
+    .miniChange ,.miniChange2,.miniChange3,  .miniChange4,  .miniChange5 {
         font-size: 18px;
     }
 
     #buttonOne {
-        margin-left: 70px;
         max-width: 50%;
     }
-    
-    #buttonTwo{
-        margin-left: 20px;
-    }
-
-    #buttonThree {
-        margin-left: 53px;
-    }
-
-    #buttonFour,  #buttonFive  {
-        margin-left: 40px;
-    }
+  
 }
