@@ -117,6 +117,12 @@ section a {
     margin-top: 20px;
 }
 
+@media screen and (max-width: 290px) {
+    
+    .miniChange {
+        margin-left: -18px;
+    }
+}
 @media screen and (max-width: 420px) {
 
     .container1 {
@@ -129,16 +135,12 @@ section a {
         width: 80%;
     }
 
-    .miniChange, .miniChange2, .miniChange3, .miniChange4, .miniChange5 {
-        font-size: 18px;
+    .miniChange {
+        font-size: 16px;
     }
-/* 
-   #buttonOne, #buttonTwo,  #buttonThree,  #buttonFour,  #buttonFive {
-        margin-left: 5px;
-    }  */
 
-    #buttonOne {
-        width: 87%;
+    .miniChange2, .miniChange3, .miniChange4, .miniChange5 {
+        font-size: 18px;
     }
 
     .backHome {
@@ -148,31 +150,13 @@ section a {
 
 
 @media (min-width: 421px) and (max-width: 799px) {
-    .miniChange ,.miniChange2 {
+    .miniChange ,.miniChange2, .miniChange3, .miniChange4,  .miniChange5 {
         font-size: 18px;
     }
-
-    
-    .miniChange3{
-        font-size: 18px;
-    }
-
-    .miniChange4,  .miniChange5 {
-        font-size: 18px;
-    }
-
-    /* #buttonOne, #buttonTwo,  #buttonThree,  #buttonFour,  #buttonFive {
-        margin-left: 10px;
-    } */
 }
 
 @media (min-width: 800px) and (max-width: 1207px) {
     .miniChange ,.miniChange2,.miniChange3,  .miniChange4,  .miniChange5 {
         font-size: 18px;
     }
-
-    #buttonOne {
-        max-width: 50%;
-    }
-  
 }
