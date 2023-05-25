@@ -104,17 +104,33 @@ section a {
 }
 
 @media screen and (max-width: 415px) {
-    li a{
-        font-size: 13px;
+    .blockIt{
+        font-size: 10px;
         margin-left: -1px;
+        display: flex;
+        flex-direction: column;
     }
     
     h1{
-        margin-left: -127px;
         font-size: 25px;
     }
+}
 
+@media screen and (max-width: 700px){
+    h1{
+        margin-left: -120px;
+    }
     #curTime {
-        margin-left: 30px;
+        display: none;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1200px){
+    h1{
+        margin-left: -80px;
+    }
+    
+    #curTime {
+        display: none;
     }
 }
