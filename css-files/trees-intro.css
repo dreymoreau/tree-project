@@ -110,11 +110,11 @@ section a {
 .backHome {
     text-align: center;
     height: 30px;
+    margin-top: 20px;
 }
 
 .backHome a{
     text-decoration: none;
-    margin-top: 20px;
 }
 
 @media screen and (max-width: 290px) {
