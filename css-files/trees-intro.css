@@ -148,7 +148,6 @@ section a {
     }
 }
 
-
 @media (min-width: 421px) and (max-width: 799px) {
     .miniChange ,.miniChange2, .miniChange3, .miniChange4,  .miniChange5 {
         font-size: 18px;
