@@ -1,13 +1,23 @@
+# Trees For Life 
 This project focuses on my passion of nature and a few trees that i love!
 
-The opening page is an introduction to the page, an explanation of why i am passionate about trees and what they do for our earth and world daily.
+Link to project: <a href="https://treesareneededforlife.netlify.app/"></a>
 
-On the trees page, it shows the 5 trees that this website will focus on Arborvitae, Honey Locust, Birch, Black Oak and Red Maple.
+![alt tag](https://github.com/dreymoreau/tree-project/blob/main/final-repo-photo.png)
 
-Each individual tree page, gives an overview of different aspects that trees need to survive, best practices of planting, watering and growing.
+## How It's Made:
 
-There is a social page with my personal links.
+**Tech used:** HTML, CSS, JavaScript
 
-On each page, there is an option to return back to the home page.
+I started by building out the desktop version first, which I will talk more in the Lessons Learned section. After building out the desktop version I built the responsive version. It was a journey of styling, responsiveness and implementing different functionality, like the running clock that is localized to the user on the homepage.
 
-https://treesareneededforlife.netlify.app/
+## Optimizations
+
+Have an option where users can fill out a template for their own favourite trees, a photo of the tree as well as some facts about it
+
+## Lessons Learned:
+
+I learned to use the mobile design strategy rather than the responsive design strategy in future projects. I learned that building the desktop version first and then shrinking everything down to fit many different mobile screens utilizes way more time, rather than building out the mobile design first and then building up to the desktop version. All in all it was a great learning experience!
+
+
+
