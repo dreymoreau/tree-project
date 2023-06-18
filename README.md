@@ -1,7 +1,7 @@
-# Trees For Life 
+# trees for life 
 This project focuses on my passion of nature and a few trees that i love!
 
-Link to project: <a href="https://treesareneededforlife.netlify.app/"></a>
+Link to project: https://treesareneededforlife.netlify.app/"
 
 ![alt tag](https://github.com/dreymoreau/tree-project/blob/main/final-repo-photo.png)
 
