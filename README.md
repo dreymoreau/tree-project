@@ -13,7 +13,7 @@ I started by building out the desktop version first, which I will talk more in t
 
 ## Optimizations
 
-Have an option where users can fill out a template for their own favourite trees, a photo of the tree as well as some facts about it
+Have an option where users can fill out a template for their own favourite trees, a photo of the tree as well as some facts about it.
 
 ## Lessons Learned:
 
