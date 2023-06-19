@@ -1,5 +1,5 @@
 # trees for life 
-This project focuses on my passion of nature and a few trees that i love!
+This project focuses on my passion of nature and a few trees that I love!
 
 Link to project: https://treesareneededforlife.netlify.app/
 
@@ -9,7 +9,7 @@ Link to project: https://treesareneededforlife.netlify.app/
 
 **Tech used:** HTML, CSS, JavaScript
 
-I started by building out the desktop version first, which I will talk more in the Lessons Learned section. After building out the desktop version I built the responsive version. It was a journey of styling, responsiveness and implementing different functionality, like the running clock that is localized to the user on the homepage.
+I started by building out the desktop version first, which I will talk more in the Lessons Learned section. After building out the desktop version I built the responsive version. It was a journey of styling, responsiveness and implementing different functionality.
 
 ## Optimizations
 
@@ -17,7 +17,7 @@ Have an option where users can fill out a template for their own favourite trees
 
 ## Lessons Learned:
 
-I learned to use the mobile design strategy rather than the responsive design strategy in future projects. I learned that building the desktop version first and then shrinking everything down to fit many different mobile screens utilizes way more time, rather than building out the mobile design first and then building up to the desktop version. All in all it was a great learning experience!
+I learned to use the mobile design strategy rather than the responsive design strategy in future projects. I learned that building the desktop version first and then shrinking everything down to fit many different mobile screens utilizes way more time, rather than building out the mobile design first and then building up to the desktop version. Another lesson learned was learning how to implement the running clock that is localized to the user on the homepage. Time is something that is super important to me, to ensure I am on time for meetings, group project talks etc. All in all it was a great learning experience!
 
 
 
